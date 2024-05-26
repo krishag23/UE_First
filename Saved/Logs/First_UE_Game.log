@@ -3368,3 +3368,742 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.05.26-20.46.35:508][839]LogFileHelpers: InternalPromptForCheckoutAndSave took 419 ms (total: 843 ms)
 [2024.05.26-20.46.35:511][839]AssetCheck: New page: Asset Save: BarrelCarnage
 [2024.05.26-20.46.35:511][839]LogContentValidation: Display: Validating /Script/Engine.World /Game/BarrelCarnage.BarrelCarnage
+[2024.05.26-20.48.55:551][825]BlueprintLog: New page: Compile BarrelCarnage
+[2024.05.26-20.48.55:602][825]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2024.05.26-20.48.58:821][885]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.26-20.48.58:831][885]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.26-20.48.58:831][885]PIE: New page: PIE session: BarrelCarnage (May 27, 2024, 7:48:58 AM)
+[2024.05.26-20.48.58:831][885]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.48.58:856][885]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025449s)
+[2024.05.26-20.48.58:856][885]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.025505s)
+[2024.05.26-20.48.58:880][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2024.05.26-20.48.58:884][885]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.48.58:884][885]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.48.58:885][885]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.48.58:885][885]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2024.05.26-20.48.58:885][885]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.05.26-20.48.58:885][885]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.26-20.48.58:885][885]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.26-20.48.58:886][885]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.26-20.48.58:886][885]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.26-20.48.58:886][885]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.26-20.48.58:886][885]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.26-20.48.58:886][885]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.26-20.48.58:886][885]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.26-20.48.58:886][885]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.26-20.48.58:886][885]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.26-20.48.58:886][885]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.26-20.48.58:889][885]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.26-20.48.58:917][885]LogAudioMixer: Display: Using Audio Hardware Device Speakers (C-Media(R) Audio)
+[2024.05.26-20.48.58:917][885]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.26-20.48.58:917][885]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.26-20.48.58:917][885]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.26-20.48.58:919][885]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.05.26-20.48.58:919][885]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.05.26-20.48.58:922][885]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.05.26-20.48.58:922][885]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.05.26-20.48.58:922][885]LogInit: FAudioDevice initialized with ID 13.
+[2024.05.26-20.48.58:922][885]LogAudio: Display: Audio Device (ID: 13) registered with world 'BarrelCarnage'.
+[2024.05.26-20.48.58:922][885]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.05.26-20.48.58:925][885]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.48.58:930][885]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.18.58
+[2024.05.26-20.48.58:930][885]LogWorld: Bringing up level for play took: 0.005609
+[2024.05.26-20.48.58:935][885]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2024.05.26-20.48.58:937][885]LogBlueprintUserMessages: [BarrelCarnage_C_8] Welcome
+[2024.05.26-20.48.58:937][885]PIE: Server logged in
+[2024.05.26-20.48.58:938][885]PIE: Play in editor total start time 0.108 seconds.
+[2024.05.26-20.49.08:841][409]LogNet: Browse: /Game/BarrelCarnage
+[2024.05.26-20.49.08:841][409]LogLoad: LoadMap: /Game/BarrelCarnage
+[2024.05.26-20.49.08:841][409]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.08:842][409]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.49.08:845][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.49.08:881][409]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.26-20.49.08:886][409]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.05.26-20.49.08:890][409]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.08:913][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022672s)
+[2024.05.26-20.49.08:913][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.022738s)
+[2024.05.26-20.49.08:913][409]LogAudio: Display: Audio Device (ID: 13) registered with world 'BarrelCarnage'.
+[2024.05.26-20.49.08:913][409]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.49.08:913][409]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.49.08:913][409]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.49.08:914][409]LogPlayLevel: PIE: World Init took: (0.001204s)
+[2024.05.26-20.49.08:914][409]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.49.08:918][409]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.19.08
+[2024.05.26-20.49.08:918][409]LogWorld: Bringing up level for play took: 0.004033
+[2024.05.26-20.49.08:920][409]LogBlueprintUserMessages: [BarrelCarnage_C_8] Welcome
+[2024.05.26-20.49.08:920][409]LogLoad: Took 0.078637 seconds to LoadMap(/Game/UEDPIE_0_BarrelCarnage)
+[2024.05.26-20.49.18:873][  1]LogNet: Browse: /Game/BarrelCarnage
+[2024.05.26-20.49.18:873][  1]LogLoad: LoadMap: /Game/BarrelCarnage
+[2024.05.26-20.49.18:873][  1]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.18:874][  1]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.49.18:876][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.49.18:898][  1]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.26-20.49.18:903][  1]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.05.26-20.49.18:906][  1]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.18:930][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024394s)
+[2024.05.26-20.49.18:930][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.024465s)
+[2024.05.26-20.49.18:930][  1]LogAudio: Display: Audio Device (ID: 13) registered with world 'BarrelCarnage'.
+[2024.05.26-20.49.18:930][  1]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.49.18:930][  1]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.49.18:931][  1]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.49.18:931][  1]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2024.05.26-20.49.18:931][  1]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.49.18:935][  1]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.19.18
+[2024.05.26-20.49.18:936][  1]LogWorld: Bringing up level for play took: 0.004128
+[2024.05.26-20.49.18:937][  1]LogBlueprintUserMessages: [BarrelCarnage_C_8] Welcome
+[2024.05.26-20.49.18:937][  1]LogLoad: Took 0.064066 seconds to LoadMap(/Game/UEDPIE_0_BarrelCarnage)
+[2024.05.26-20.49.28:893][594]LogNet: Browse: /Game/BarrelCarnage
+[2024.05.26-20.49.28:893][594]LogLoad: LoadMap: /Game/BarrelCarnage
+[2024.05.26-20.49.28:893][594]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.28:894][594]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.49.28:896][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.49.28:919][594]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.26-20.49.28:923][594]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2024.05.26-20.49.28:926][594]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.28:950][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023190s)
+[2024.05.26-20.49.28:950][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.023283s)
+[2024.05.26-20.49.28:950][594]LogAudio: Display: Audio Device (ID: 13) registered with world 'BarrelCarnage'.
+[2024.05.26-20.49.28:950][594]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.49.28:950][594]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.49.28:950][594]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.49.28:952][594]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2024.05.26-20.49.28:952][594]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.49.28:955][594]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.19.28
+[2024.05.26-20.49.28:956][594]LogWorld: Bringing up level for play took: 0.004309
+[2024.05.26-20.49.28:957][594]LogBlueprintUserMessages: [BarrelCarnage_C_8] Welcome
+[2024.05.26-20.49.28:957][594]LogLoad: Took 0.063852 seconds to LoadMap(/Game/UEDPIE_0_BarrelCarnage)
+[2024.05.26-20.49.38:927][190]LogNet: Browse: /Game/BarrelCarnage
+[2024.05.26-20.49.38:927][190]LogLoad: LoadMap: /Game/BarrelCarnage
+[2024.05.26-20.49.38:927][190]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.38:928][190]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.49.38:930][190]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.49.38:988][190]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.26-20.49.38:992][190]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2024.05.26-20.49.38:996][190]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.39:019][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023313s)
+[2024.05.26-20.49.39:019][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.023373s)
+[2024.05.26-20.49.39:019][190]LogAudio: Display: Audio Device (ID: 13) registered with world 'BarrelCarnage'.
+[2024.05.26-20.49.39:019][190]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.49.39:019][190]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.49.39:020][190]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.49.39:020][190]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2024.05.26-20.49.39:020][190]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.49.39:025][190]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.19.39
+[2024.05.26-20.49.39:025][190]LogWorld: Bringing up level for play took: 0.004389
+[2024.05.26-20.49.39:027][190]LogBlueprintUserMessages: [BarrelCarnage_C_8] Welcome
+[2024.05.26-20.49.39:027][190]LogLoad: Took 0.099921 seconds to LoadMap(/Game/UEDPIE_0_BarrelCarnage)
+[2024.05.26-20.49.48:949][781]LogNet: Browse: /Game/BarrelCarnage
+[2024.05.26-20.49.48:949][781]LogLoad: LoadMap: /Game/BarrelCarnage
+[2024.05.26-20.49.48:949][781]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.48:950][781]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.49.48:952][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.49.48:974][781]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.26-20.49.48:979][781]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2024.05.26-20.49.48:982][781]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.49:005][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023732s)
+[2024.05.26-20.49.49:006][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.023797s)
+[2024.05.26-20.49.49:006][781]LogAudio: Display: Audio Device (ID: 13) registered with world 'BarrelCarnage'.
+[2024.05.26-20.49.49:006][781]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.49.49:006][781]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.49.49:006][781]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.49.49:007][781]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2024.05.26-20.49.49:007][781]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.49.49:010][781]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.19.49
+[2024.05.26-20.49.49:011][781]LogWorld: Bringing up level for play took: 0.004062
+[2024.05.26-20.49.49:013][781]LogBlueprintUserMessages: [BarrelCarnage_C_8] Welcome
+[2024.05.26-20.49.49:013][781]LogLoad: Took 0.064316 seconds to LoadMap(/Game/UEDPIE_0_BarrelCarnage)
+[2024.05.26-20.49.53:525][ 49]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile0
+[2024.05.26-20.49.53:525][ 49]LogBlueprintUserMessages: [BarrelCarnage_C_8] 9
+[2024.05.26-20.49.53:525][ 49]LogBlueprintUserMessages: [BarrelCarnage_C_8] 9
+[2024.05.26-20.49.53:992][ 77]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2024.05.26-20.49.53:992][ 77]LogBlueprintUserMessages: [BarrelCarnage_C_8] 8
+[2024.05.26-20.49.53:992][ 77]LogBlueprintUserMessages: [BarrelCarnage_C_8] 8
+[2024.05.26-20.49.54:592][113]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2024.05.26-20.49.54:593][113]LogBlueprintUserMessages: [BarrelCarnage_C_8] 7
+[2024.05.26-20.49.54:593][113]LogBlueprintUserMessages: [BarrelCarnage_C_8] 7
+[2024.05.26-20.49.54:942][134]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2024.05.26-20.49.54:942][134]LogBlueprintUserMessages: [BarrelCarnage_C_8] 6
+[2024.05.26-20.49.54:942][134]LogBlueprintUserMessages: [BarrelCarnage_C_8] 6
+[2024.05.26-20.49.55:276][154]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2024.05.26-20.49.55:276][154]LogBlueprintUserMessages: [BarrelCarnage_C_8] 5
+[2024.05.26-20.49.55:276][154]LogBlueprintUserMessages: [BarrelCarnage_C_8] 5
+[2024.05.26-20.49.55:593][173]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2024.05.26-20.49.55:593][173]LogBlueprintUserMessages: [BarrelCarnage_C_8] 4
+[2024.05.26-20.49.55:593][173]LogBlueprintUserMessages: [BarrelCarnage_C_8] 4
+[2024.05.26-20.49.56:892][251]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2024.05.26-20.49.56:892][251]LogBlueprintUserMessages: [BarrelCarnage_C_8] 3
+[2024.05.26-20.49.56:892][251]LogBlueprintUserMessages: [BarrelCarnage_C_8] 3
+[2024.05.26-20.49.57:975][316]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2024.05.26-20.49.57:975][316]LogBlueprintUserMessages: [BarrelCarnage_C_8] 2
+[2024.05.26-20.49.57:975][316]LogBlueprintUserMessages: [BarrelCarnage_C_8] 2
+[2024.05.26-20.49.58:343][338]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2024.05.26-20.49.58:343][338]LogBlueprintUserMessages: [BarrelCarnage_C_8] 1
+[2024.05.26-20.49.58:343][338]LogBlueprintUserMessages: [BarrelCarnage_C_8] 1
+[2024.05.26-20.49.58:625][355]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2024.05.26-20.49.58:625][355]LogBlueprintUserMessages: [BarrelCarnage_C_8] 0
+[2024.05.26-20.49.58:625][355]LogBlueprintUserMessages: [BarrelCarnage_C_8] 0
+[2024.05.26-20.49.58:891][371]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.49.58:975][376]LogNet: Browse: /Game/BarrelCarnage
+[2024.05.26-20.49.58:975][376]LogLoad: LoadMap: /Game/BarrelCarnage
+[2024.05.26-20.49.58:975][376]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.58:975][376]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.49.58:978][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.49.58:999][376]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.26-20.49.59:004][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2024.05.26-20.49.59:008][376]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.49.59:030][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022445s)
+[2024.05.26-20.49.59:030][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.022509s)
+[2024.05.26-20.49.59:030][376]LogAudio: Display: Audio Device (ID: 13) registered with world 'BarrelCarnage'.
+[2024.05.26-20.49.59:030][376]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.49.59:030][376]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.49.59:030][376]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.49.59:031][376]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2024.05.26-20.49.59:031][376]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.49.59:035][376]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.19.59
+[2024.05.26-20.49.59:035][376]LogWorld: Bringing up level for play took: 0.004096
+[2024.05.26-20.49.59:037][376]LogBlueprintUserMessages: [BarrelCarnage_C_8] Welcome
+[2024.05.26-20.49.59:037][376]LogLoad: Took 0.062933 seconds to LoadMap(/Game/UEDPIE_0_BarrelCarnage)
+[2024.05.26-20.49.59:193][380]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile0
+[2024.05.26-20.49.59:193][380]LogBlueprintUserMessages: [BarrelCarnage_C_8] 9
+[2024.05.26-20.49.59:193][380]LogBlueprintUserMessages: [BarrelCarnage_C_8] 9
+[2024.05.26-20.49.59:526][400]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2024.05.26-20.49.59:526][400]LogBlueprintUserMessages: [BarrelCarnage_C_8] 8
+[2024.05.26-20.49.59:526][400]LogBlueprintUserMessages: [BarrelCarnage_C_8] 8
+[2024.05.26-20.50.01:926][544]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2024.05.26-20.50.01:927][544]LogBlueprintUserMessages: [BarrelCarnage_C_8] 7
+[2024.05.26-20.50.01:927][544]LogBlueprintUserMessages: [BarrelCarnage_C_8] 7
+[2024.05.26-20.50.02:526][580]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2024.05.26-20.50.02:526][580]LogBlueprintUserMessages: [BarrelCarnage_C_8] 6
+[2024.05.26-20.50.02:526][580]LogBlueprintUserMessages: [BarrelCarnage_C_8] 6
+[2024.05.26-20.50.03:210][621]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2024.05.26-20.50.03:210][621]LogBlueprintUserMessages: [BarrelCarnage_C_8] 5
+[2024.05.26-20.50.03:210][621]LogBlueprintUserMessages: [BarrelCarnage_C_8] 5
+[2024.05.26-20.50.03:675][649]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2024.05.26-20.50.03:675][649]LogBlueprintUserMessages: [BarrelCarnage_C_8] 4
+[2024.05.26-20.50.03:675][649]LogBlueprintUserMessages: [BarrelCarnage_C_8] 4
+[2024.05.26-20.50.04:092][674]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2024.05.26-20.50.04:092][674]LogBlueprintUserMessages: [BarrelCarnage_C_8] 3
+[2024.05.26-20.50.04:092][674]LogBlueprintUserMessages: [BarrelCarnage_C_8] 3
+[2024.05.26-20.50.04:442][695]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2024.05.26-20.50.04:442][695]LogBlueprintUserMessages: [BarrelCarnage_C_8] 2
+[2024.05.26-20.50.04:442][695]LogBlueprintUserMessages: [BarrelCarnage_C_8] 2
+[2024.05.26-20.50.05:026][730]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2024.05.26-20.50.05:026][730]LogBlueprintUserMessages: [BarrelCarnage_C_8] 1
+[2024.05.26-20.50.05:026][730]LogBlueprintUserMessages: [BarrelCarnage_C_8] 1
+[2024.05.26-20.50.05:359][750]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2024.05.26-20.50.05:359][750]LogBlueprintUserMessages: [BarrelCarnage_C_8] 0
+[2024.05.26-20.50.05:359][750]LogBlueprintUserMessages: [BarrelCarnage_C_8] 0
+[2024.05.26-20.50.05:674][769]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.06:008][789]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.06:292][806]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.06:558][822]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.06:775][835]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.06:992][848]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.07:208][861]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.07:425][874]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.07:658][888]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.07:908][903]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.08:175][919]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.08:458][936]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.08:643][947]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.08:859][960]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.09:008][969]LogNet: Browse: /Game/BarrelCarnage
+[2024.05.26-20.50.09:008][969]LogLoad: LoadMap: /Game/BarrelCarnage
+[2024.05.26-20.50.09:008][969]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.50.09:009][969]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.50.09:012][969]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.50.09:066][969]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.26-20.50.09:070][969]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.05.26-20.50.09:074][969]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.50.09:096][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022305s)
+[2024.05.26-20.50.09:096][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.022396s)
+[2024.05.26-20.50.09:096][969]LogAudio: Display: Audio Device (ID: 13) registered with world 'BarrelCarnage'.
+[2024.05.26-20.50.09:096][969]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.50.09:096][969]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.50.09:096][969]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.50.09:097][969]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2024.05.26-20.50.09:097][969]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.50.09:101][969]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.20.09
+[2024.05.26-20.50.09:101][969]LogWorld: Bringing up level for play took: 0.004123
+[2024.05.26-20.50.09:103][969]LogBlueprintUserMessages: [BarrelCarnage_C_8] Welcome
+[2024.05.26-20.50.09:103][969]LogLoad: Took 0.094626 seconds to LoadMap(/Game/UEDPIE_0_BarrelCarnage)
+[2024.05.26-20.50.09:127][970]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile0
+[2024.05.26-20.50.09:127][970]LogBlueprintUserMessages: [BarrelCarnage_C_8] 9
+[2024.05.26-20.50.09:127][970]LogBlueprintUserMessages: [BarrelCarnage_C_8] 9
+[2024.05.26-20.50.09:289][976]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2024.05.26-20.50.09:289][976]LogBlueprintUserMessages: [BarrelCarnage_C_8] 8
+[2024.05.26-20.50.09:289][976]LogBlueprintUserMessages: [BarrelCarnage_C_8] 8
+[2024.05.26-20.50.09:539][991]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2024.05.26-20.50.09:539][991]LogBlueprintUserMessages: [BarrelCarnage_C_8] 7
+[2024.05.26-20.50.09:539][991]LogBlueprintUserMessages: [BarrelCarnage_C_8] 7
+[2024.05.26-20.50.09:822][  8]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2024.05.26-20.50.09:822][  8]LogBlueprintUserMessages: [BarrelCarnage_C_8] 6
+[2024.05.26-20.50.09:822][  8]LogBlueprintUserMessages: [BarrelCarnage_C_8] 6
+[2024.05.26-20.50.10:039][ 21]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2024.05.26-20.50.10:039][ 21]LogBlueprintUserMessages: [BarrelCarnage_C_8] 5
+[2024.05.26-20.50.10:039][ 21]LogBlueprintUserMessages: [BarrelCarnage_C_8] 5
+[2024.05.26-20.50.10:289][ 36]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2024.05.26-20.50.10:289][ 36]LogBlueprintUserMessages: [BarrelCarnage_C_8] 4
+[2024.05.26-20.50.10:289][ 36]LogBlueprintUserMessages: [BarrelCarnage_C_8] 4
+[2024.05.26-20.50.10:557][ 52]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2024.05.26-20.50.10:557][ 52]LogBlueprintUserMessages: [BarrelCarnage_C_8] 3
+[2024.05.26-20.50.10:557][ 52]LogBlueprintUserMessages: [BarrelCarnage_C_8] 3
+[2024.05.26-20.50.10:773][ 65]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2024.05.26-20.50.10:773][ 65]LogBlueprintUserMessages: [BarrelCarnage_C_8] 2
+[2024.05.26-20.50.10:773][ 65]LogBlueprintUserMessages: [BarrelCarnage_C_8] 2
+[2024.05.26-20.50.10:972][ 77]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2024.05.26-20.50.10:972][ 77]LogBlueprintUserMessages: [BarrelCarnage_C_8] 1
+[2024.05.26-20.50.10:972][ 77]LogBlueprintUserMessages: [BarrelCarnage_C_8] 1
+[2024.05.26-20.50.11:206][ 91]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2024.05.26-20.50.11:206][ 91]LogBlueprintUserMessages: [BarrelCarnage_C_8] 0
+[2024.05.26-20.50.11:206][ 91]LogBlueprintUserMessages: [BarrelCarnage_C_8] 0
+[2024.05.26-20.50.11:388][102]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.11:605][115]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.11:856][130]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.12:123][146]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.12:372][161]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.12:588][174]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.12:855][190]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.13:089][204]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.13:322][218]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.13:550][231]LogBlueprintUserMessages: [BarrelCarnage_C_8] Fuck You
+[2024.05.26-20.50.14:824][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.26-20.50.14:824][306]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.50.14:824][306]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.50.14:826][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.50.14:831][306]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.26-20.50.14:837][306]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.50.14:858][306]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.26-20.50.14:859][306]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.05.26-20.50.14:859][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.05.26-20.50.14:861][306]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.05.26-20.50.14:872][306]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2024.05.26-20.50.14:996][307]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.05.26-20.50.39:677][809]BlueprintLog: New page: Compile BarrelCarnage
+[2024.05.26-20.50.39:728][809]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2024.05.26-20.50.42:211][853]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.26-20.50.42:219][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.26-20.50.42:219][853]PIE: New page: PIE session: BarrelCarnage (May 27, 2024, 7:50:42 AM)
+[2024.05.26-20.50.42:219][853]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.50.42:242][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022929s)
+[2024.05.26-20.50.42:242][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.022975s)
+[2024.05.26-20.50.42:267][853]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2024.05.26-20.50.42:270][853]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.50.42:270][853]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.50.42:271][853]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.50.42:271][853]LogPlayLevel: PIE: World Init took: (0.001218s)
+[2024.05.26-20.50.42:271][853]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.05.26-20.50.42:271][853]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.26-20.50.42:271][853]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.26-20.50.42:271][853]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.26-20.50.42:271][853]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.26-20.50.42:271][853]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.26-20.50.42:271][853]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.26-20.50.42:271][853]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.26-20.50.42:272][853]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.26-20.50.42:273][853]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.26-20.50.42:273][853]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.26-20.50.42:273][853]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.26-20.50.42:275][853]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.26-20.50.42:306][853]LogAudioMixer: Display: Using Audio Hardware Device Speakers (C-Media(R) Audio)
+[2024.05.26-20.50.42:306][853]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.26-20.50.42:306][853]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.26-20.50.42:306][853]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.26-20.50.42:308][853]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.05.26-20.50.42:308][853]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.05.26-20.50.42:311][853]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.05.26-20.50.42:311][853]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.05.26-20.50.42:311][853]LogInit: FAudioDevice initialized with ID 14.
+[2024.05.26-20.50.42:311][853]LogAudio: Display: Audio Device (ID: 14) registered with world 'BarrelCarnage'.
+[2024.05.26-20.50.42:311][853]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.05.26-20.50.42:315][853]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.50.42:320][853]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.20.42
+[2024.05.26-20.50.42:320][853]LogWorld: Bringing up level for play took: 0.005764
+[2024.05.26-20.50.42:324][853]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.05.26-20.50.42:327][853]LogBlueprintUserMessages: [BarrelCarnage_C_9] Welcome
+[2024.05.26-20.50.42:327][853]PIE: Server logged in
+[2024.05.26-20.50.42:328][853]PIE: Play in editor total start time 0.108 seconds.
+[2024.05.26-20.50.43:778][895]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile0
+[2024.05.26-20.50.43:778][895]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.43:778][895]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.44:261][915]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2024.05.26-20.50.44:261][915]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.44:261][915]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.44:739][942]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2024.05.26-20.50.44:739][942]LogBlueprintUserMessages: [BarrelCarnage_C_9] 7
+[2024.05.26-20.50.44:739][942]LogBlueprintUserMessages: [BarrelCarnage_C_9] 7
+[2024.05.26-20.50.45:156][967]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2024.05.26-20.50.45:156][967]LogBlueprintUserMessages: [BarrelCarnage_C_9] 6
+[2024.05.26-20.50.45:156][967]LogBlueprintUserMessages: [BarrelCarnage_C_9] 6
+[2024.05.26-20.50.45:372][980]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2024.05.26-20.50.45:372][980]LogBlueprintUserMessages: [BarrelCarnage_C_9] 5
+[2024.05.26-20.50.45:372][980]LogBlueprintUserMessages: [BarrelCarnage_C_9] 5
+[2024.05.26-20.50.45:539][990]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2024.05.26-20.50.45:539][990]LogBlueprintUserMessages: [BarrelCarnage_C_9] 4
+[2024.05.26-20.50.45:539][990]LogBlueprintUserMessages: [BarrelCarnage_C_9] 4
+[2024.05.26-20.50.45:739][  2]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2024.05.26-20.50.45:739][  2]LogBlueprintUserMessages: [BarrelCarnage_C_9] 3
+[2024.05.26-20.50.45:739][  2]LogBlueprintUserMessages: [BarrelCarnage_C_9] 3
+[2024.05.26-20.50.45:939][ 14]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2024.05.26-20.50.45:939][ 14]LogBlueprintUserMessages: [BarrelCarnage_C_9] 2
+[2024.05.26-20.50.45:939][ 14]LogBlueprintUserMessages: [BarrelCarnage_C_9] 2
+[2024.05.26-20.50.46:140][ 26]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2024.05.26-20.50.46:140][ 26]LogBlueprintUserMessages: [BarrelCarnage_C_9] 1
+[2024.05.26-20.50.46:140][ 26]LogBlueprintUserMessages: [BarrelCarnage_C_9] 1
+[2024.05.26-20.50.46:305][ 36]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2024.05.26-20.50.46:306][ 36]LogBlueprintUserMessages: [BarrelCarnage_C_9] 0
+[2024.05.26-20.50.46:306][ 36]LogBlueprintUserMessages: [BarrelCarnage_C_9] 0
+[2024.05.26-20.50.46:522][ 49]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.46:687][ 59]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.46:838][ 68]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.47:054][ 81]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.47:237][ 92]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.47:421][103]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.47:621][115]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.47:820][127]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.48:638][176]LogBlueprintUserMessages: [BarrelCarnage_C_9] 10
+[2024.05.26-20.50.49:090][203]LogBlueprintUserMessages: [BP_Projectile_C_10] BP_Projectile10
+[2024.05.26-20.50.49:090][203]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.49:090][203]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.49:305][216]LogBlueprintUserMessages: [BP_Projectile_C_11] BP_Projectile11
+[2024.05.26-20.50.49:305][216]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.49:305][216]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.49:522][229]LogBlueprintUserMessages: [BP_Projectile_C_12] BP_Projectile12
+[2024.05.26-20.50.49:522][229]LogBlueprintUserMessages: [BarrelCarnage_C_9] 7
+[2024.05.26-20.50.49:522][229]LogBlueprintUserMessages: [BarrelCarnage_C_9] 7
+[2024.05.26-20.50.49:705][240]LogBlueprintUserMessages: [BP_Projectile_C_13] BP_Projectile13
+[2024.05.26-20.50.49:705][240]LogBlueprintUserMessages: [BarrelCarnage_C_9] 6
+[2024.05.26-20.50.49:705][240]LogBlueprintUserMessages: [BarrelCarnage_C_9] 6
+[2024.05.26-20.50.49:889][251]LogBlueprintUserMessages: [BP_Projectile_C_14] BP_Projectile14
+[2024.05.26-20.50.49:889][251]LogBlueprintUserMessages: [BarrelCarnage_C_9] 5
+[2024.05.26-20.50.49:889][251]LogBlueprintUserMessages: [BarrelCarnage_C_9] 5
+[2024.05.26-20.50.50:105][264]LogBlueprintUserMessages: [BP_Projectile_C_15] BP_Projectile15
+[2024.05.26-20.50.50:105][264]LogBlueprintUserMessages: [BarrelCarnage_C_9] 4
+[2024.05.26-20.50.50:105][264]LogBlueprintUserMessages: [BarrelCarnage_C_9] 4
+[2024.05.26-20.50.50:289][275]LogBlueprintUserMessages: [BP_Projectile_C_16] BP_Projectile16
+[2024.05.26-20.50.50:289][275]LogBlueprintUserMessages: [BarrelCarnage_C_9] 3
+[2024.05.26-20.50.50:289][275]LogBlueprintUserMessages: [BarrelCarnage_C_9] 3
+[2024.05.26-20.50.50:506][288]LogBlueprintUserMessages: [BP_Projectile_C_17] BP_Projectile17
+[2024.05.26-20.50.50:506][288]LogBlueprintUserMessages: [BarrelCarnage_C_9] 2
+[2024.05.26-20.50.50:506][288]LogBlueprintUserMessages: [BarrelCarnage_C_9] 2
+[2024.05.26-20.50.50:739][302]LogBlueprintUserMessages: [BP_Projectile_C_18] BP_Projectile18
+[2024.05.26-20.50.50:739][302]LogBlueprintUserMessages: [BarrelCarnage_C_9] 1
+[2024.05.26-20.50.50:739][302]LogBlueprintUserMessages: [BarrelCarnage_C_9] 1
+[2024.05.26-20.50.50:955][315]LogBlueprintUserMessages: [BP_Projectile_C_19] BP_Projectile19
+[2024.05.26-20.50.50:955][315]LogBlueprintUserMessages: [BarrelCarnage_C_9] 0
+[2024.05.26-20.50.50:955][315]LogBlueprintUserMessages: [BarrelCarnage_C_9] 0
+[2024.05.26-20.50.51:171][328]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.51:338][338]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.51:572][352]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.51:804][366]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.52:021][379]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.52:205][390]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.52:220][391]LogNet: Browse: /Game/BarrelCarnage
+[2024.05.26-20.50.52:220][391]LogLoad: LoadMap: /Game/BarrelCarnage
+[2024.05.26-20.50.52:220][391]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.50.52:221][391]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.50.52:226][391]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.50.52:249][391]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.05.26-20.50.52:252][391]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.05.26-20.50.52:257][391]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.50.52:279][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022786s)
+[2024.05.26-20.50.52:279][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.022865s)
+[2024.05.26-20.50.52:279][391]LogAudio: Display: Audio Device (ID: 14) registered with world 'BarrelCarnage'.
+[2024.05.26-20.50.52:279][391]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.50.52:279][391]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.50.52:280][391]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.50.52:280][391]LogPlayLevel: PIE: World Init took: (0.001206s)
+[2024.05.26-20.50.52:280][391]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.50.52:285][391]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.20.52
+[2024.05.26-20.50.52:285][391]LogWorld: Bringing up level for play took: 0.004144
+[2024.05.26-20.50.52:286][391]LogBlueprintUserMessages: [BarrelCarnage_C_9] Welcome
+[2024.05.26-20.50.52:286][391]LogLoad: Took 0.065560 seconds to LoadMap(/Game/UEDPIE_0_BarrelCarnage)
+[2024.05.26-20.50.52:707][411]LogBlueprintUserMessages: [BarrelCarnage_C_9] 10
+[2024.05.26-20.50.53:009][429]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile0
+[2024.05.26-20.50.53:009][429]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.53:009][429]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.53:292][446]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2024.05.26-20.50.53:292][446]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.53:292][446]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.53:526][460]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2024.05.26-20.50.53:526][460]LogBlueprintUserMessages: [BarrelCarnage_C_9] 7
+[2024.05.26-20.50.53:526][460]LogBlueprintUserMessages: [BarrelCarnage_C_9] 7
+[2024.05.26-20.50.53:792][476]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2024.05.26-20.50.53:792][476]LogBlueprintUserMessages: [BarrelCarnage_C_9] 6
+[2024.05.26-20.50.53:792][476]LogBlueprintUserMessages: [BarrelCarnage_C_9] 6
+[2024.05.26-20.50.54:025][490]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2024.05.26-20.50.54:026][490]LogBlueprintUserMessages: [BarrelCarnage_C_9] 5
+[2024.05.26-20.50.54:026][490]LogBlueprintUserMessages: [BarrelCarnage_C_9] 5
+[2024.05.26-20.50.54:209][501]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2024.05.26-20.50.54:209][501]LogBlueprintUserMessages: [BarrelCarnage_C_9] 4
+[2024.05.26-20.50.54:209][501]LogBlueprintUserMessages: [BarrelCarnage_C_9] 4
+[2024.05.26-20.50.54:392][512]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2024.05.26-20.50.54:392][512]LogBlueprintUserMessages: [BarrelCarnage_C_9] 3
+[2024.05.26-20.50.54:392][512]LogBlueprintUserMessages: [BarrelCarnage_C_9] 3
+[2024.05.26-20.50.54:626][526]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2024.05.26-20.50.54:626][526]LogBlueprintUserMessages: [BarrelCarnage_C_9] 2
+[2024.05.26-20.50.54:626][526]LogBlueprintUserMessages: [BarrelCarnage_C_9] 2
+[2024.05.26-20.50.54:809][537]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2024.05.26-20.50.54:809][537]LogBlueprintUserMessages: [BarrelCarnage_C_9] 1
+[2024.05.26-20.50.54:809][537]LogBlueprintUserMessages: [BarrelCarnage_C_9] 1
+[2024.05.26-20.50.55:026][550]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2024.05.26-20.50.55:026][550]LogBlueprintUserMessages: [BarrelCarnage_C_9] 0
+[2024.05.26-20.50.55:026][550]LogBlueprintUserMessages: [BarrelCarnage_C_9] 0
+[2024.05.26-20.50.55:224][562]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.55:424][574]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.55:624][586]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.55:841][599]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.56:124][616]LogBlueprintUserMessages: [BarrelCarnage_C_9] 10
+[2024.05.26-20.50.56:375][631]LogBlueprintUserMessages: [BP_Projectile_C_10] BP_Projectile10
+[2024.05.26-20.50.56:375][631]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.56:375][631]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.56:660][648]LogBlueprintUserMessages: [BP_Projectile_C_11] BP_Projectile11
+[2024.05.26-20.50.56:660][648]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.56:660][648]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.56:675][649]LogBlueprintUserMessages: [BarrelCarnage_C_9] 10
+[2024.05.26-20.50.56:909][663]LogBlueprintUserMessages: [BP_Projectile_C_12] BP_Projectile12
+[2024.05.26-20.50.56:909][663]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.56:909][663]LogBlueprintUserMessages: [BarrelCarnage_C_9] 9
+[2024.05.26-20.50.57:392][692]LogBlueprintUserMessages: [BP_Projectile_C_13] BP_Projectile13
+[2024.05.26-20.50.57:392][692]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.57:392][692]LogBlueprintUserMessages: [BarrelCarnage_C_9] 8
+[2024.05.26-20.50.57:676][709]LogBlueprintUserMessages: [BP_Projectile_C_14] BP_Projectile14
+[2024.05.26-20.50.57:676][709]LogBlueprintUserMessages: [BarrelCarnage_C_9] 7
+[2024.05.26-20.50.57:676][709]LogBlueprintUserMessages: [BarrelCarnage_C_9] 7
+[2024.05.26-20.50.57:909][723]LogBlueprintUserMessages: [BP_Projectile_C_15] BP_Projectile15
+[2024.05.26-20.50.57:909][723]LogBlueprintUserMessages: [BarrelCarnage_C_9] 6
+[2024.05.26-20.50.57:909][723]LogBlueprintUserMessages: [BarrelCarnage_C_9] 6
+[2024.05.26-20.50.58:142][737]LogBlueprintUserMessages: [BP_Projectile_C_16] BP_Projectile16
+[2024.05.26-20.50.58:142][737]LogBlueprintUserMessages: [BarrelCarnage_C_9] 5
+[2024.05.26-20.50.58:142][737]LogBlueprintUserMessages: [BarrelCarnage_C_9] 5
+[2024.05.26-20.50.58:342][749]LogBlueprintUserMessages: [BP_Projectile_C_17] BP_Projectile17
+[2024.05.26-20.50.58:342][749]LogBlueprintUserMessages: [BarrelCarnage_C_9] 4
+[2024.05.26-20.50.58:342][749]LogBlueprintUserMessages: [BarrelCarnage_C_9] 4
+[2024.05.26-20.50.58:576][763]LogBlueprintUserMessages: [BP_Projectile_C_18] BP_Projectile18
+[2024.05.26-20.50.58:576][763]LogBlueprintUserMessages: [BarrelCarnage_C_9] 3
+[2024.05.26-20.50.58:577][763]LogBlueprintUserMessages: [BarrelCarnage_C_9] 3
+[2024.05.26-20.50.58:826][778]LogBlueprintUserMessages: [BP_Projectile_C_19] BP_Projectile19
+[2024.05.26-20.50.58:826][778]LogBlueprintUserMessages: [BarrelCarnage_C_9] 2
+[2024.05.26-20.50.58:826][778]LogBlueprintUserMessages: [BarrelCarnage_C_9] 2
+[2024.05.26-20.50.59:009][789]LogBlueprintUserMessages: [BP_Projectile_C_20] BP_Projectile20
+[2024.05.26-20.50.59:009][789]LogBlueprintUserMessages: [BarrelCarnage_C_9] 1
+[2024.05.26-20.50.59:009][789]LogBlueprintUserMessages: [BarrelCarnage_C_9] 1
+[2024.05.26-20.50.59:210][801]LogBlueprintUserMessages: [BP_Projectile_C_21] BP_Projectile21
+[2024.05.26-20.50.59:210][801]LogBlueprintUserMessages: [BarrelCarnage_C_9] 0
+[2024.05.26-20.50.59:210][801]LogBlueprintUserMessages: [BarrelCarnage_C_9] 0
+[2024.05.26-20.50.59:424][814]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.59:624][826]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.50.59:841][839]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.51.00:057][852]LogBlueprintUserMessages: [BarrelCarnage_C_9] Fuck You
+[2024.05.26-20.51.00:914][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.26-20.51.00:914][901]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.51.00:914][901]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.51.00:917][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.51.00:921][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.26-20.51.00:927][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.51.00:948][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.26-20.51.00:948][901]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.05.26-20.51.00:949][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.05.26-20.51.00:952][901]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.05.26-20.51.00:963][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.05.26-20.51.01:096][902]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.05.26-20.51.02:582][946]Cmd: SELECT NONE
+[2024.05.26-20.51.39:145][804]BlueprintLog: New page: Compile BarrelCarnage
+[2024.05.26-20.51.39:196][804]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.05.26-20.51.43:997][903]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.26-20.51.44:007][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.26-20.51.44:007][903]PIE: New page: PIE session: BarrelCarnage (May 27, 2024, 7:51:44 AM)
+[2024.05.26-20.51.44:007][903]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.51.44:034][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026970s)
+[2024.05.26-20.51.44:034][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.027030s)
+[2024.05.26-20.51.44:057][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2024.05.26-20.51.44:061][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.51.44:061][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.51.44:062][903]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.51.44:063][903]LogPlayLevel: PIE: World Init took: (0.001237s)
+[2024.05.26-20.51.44:063][903]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.05.26-20.51.44:063][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.26-20.51.44:063][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.26-20.51.44:063][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.26-20.51.44:063][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.26-20.51.44:063][903]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.26-20.51.44:063][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.26-20.51.44:063][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.26-20.51.44:063][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.26-20.51.44:063][903]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.26-20.51.44:063][903]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.26-20.51.44:063][903]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.26-20.51.44:066][903]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.26-20.51.44:094][903]LogAudioMixer: Display: Using Audio Hardware Device Speakers (C-Media(R) Audio)
+[2024.05.26-20.51.44:095][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.26-20.51.44:095][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.26-20.51.44:095][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.26-20.51.44:096][903]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.05.26-20.51.44:096][903]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.05.26-20.51.44:100][903]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.05.26-20.51.44:100][903]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.05.26-20.51.44:100][903]LogInit: FAudioDevice initialized with ID 15.
+[2024.05.26-20.51.44:100][903]LogAudio: Display: Audio Device (ID: 15) registered with world 'BarrelCarnage'.
+[2024.05.26-20.51.44:100][903]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.05.26-20.51.44:102][903]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.51.44:109][903]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.21.44
+[2024.05.26-20.51.44:109][903]LogWorld: Bringing up level for play took: 0.005620
+[2024.05.26-20.51.44:112][903]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.05.26-20.51.44:114][903]LogBlueprintUserMessages: [BarrelCarnage_C_10] Welcome
+[2024.05.26-20.51.44:114][903]PIE: Server logged in
+[2024.05.26-20.51.44:115][903]PIE: Play in editor total start time 0.108 seconds.
+[2024.05.26-20.51.49:103][151]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile0
+[2024.05.26-20.51.49:103][151]LogBlueprintUserMessages: [BarrelCarnage_C_10] 9
+[2024.05.26-20.51.49:103][151]LogBlueprintUserMessages: [BarrelCarnage_C_10] 9
+[2024.05.26-20.51.49:586][180]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2024.05.26-20.51.49:586][180]LogBlueprintUserMessages: [BarrelCarnage_C_10] 8
+[2024.05.26-20.51.49:586][180]LogBlueprintUserMessages: [BarrelCarnage_C_10] 8
+[2024.05.26-20.51.49:854][196]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2024.05.26-20.51.49:854][196]LogBlueprintUserMessages: [BarrelCarnage_C_10] 7
+[2024.05.26-20.51.49:854][196]LogBlueprintUserMessages: [BarrelCarnage_C_10] 7
+[2024.05.26-20.51.50:054][208]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2024.05.26-20.51.50:054][208]LogBlueprintUserMessages: [BarrelCarnage_C_10] 6
+[2024.05.26-20.51.50:054][208]LogBlueprintUserMessages: [BarrelCarnage_C_10] 6
+[2024.05.26-20.51.50:254][220]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2024.05.26-20.51.50:254][220]LogBlueprintUserMessages: [BarrelCarnage_C_10] 5
+[2024.05.26-20.51.50:254][220]LogBlueprintUserMessages: [BarrelCarnage_C_10] 5
+[2024.05.26-20.51.50:486][234]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2024.05.26-20.51.50:486][234]LogBlueprintUserMessages: [BarrelCarnage_C_10] 4
+[2024.05.26-20.51.50:486][234]LogBlueprintUserMessages: [BarrelCarnage_C_10] 4
+[2024.05.26-20.51.50:687][246]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2024.05.26-20.51.50:687][246]LogBlueprintUserMessages: [BarrelCarnage_C_10] 3
+[2024.05.26-20.51.50:687][246]LogBlueprintUserMessages: [BarrelCarnage_C_10] 3
+[2024.05.26-20.51.50:853][256]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2024.05.26-20.51.50:853][256]LogBlueprintUserMessages: [BarrelCarnage_C_10] 2
+[2024.05.26-20.51.50:853][256]LogBlueprintUserMessages: [BarrelCarnage_C_10] 2
+[2024.05.26-20.51.51:020][266]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2024.05.26-20.51.51:020][266]LogBlueprintUserMessages: [BarrelCarnage_C_10] 1
+[2024.05.26-20.51.51:020][266]LogBlueprintUserMessages: [BarrelCarnage_C_10] 1
+[2024.05.26-20.51.51:203][277]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2024.05.26-20.51.51:203][277]LogBlueprintUserMessages: [BarrelCarnage_C_10] 0
+[2024.05.26-20.51.51:203][277]LogBlueprintUserMessages: [BarrelCarnage_C_10] 0
+[2024.05.26-20.51.51:419][290]LogBlueprintUserMessages: [BarrelCarnage_C_10] Fuck You
+[2024.05.26-20.51.51:636][303]LogBlueprintUserMessages: [BarrelCarnage_C_10] Fuck You
+[2024.05.26-20.51.51:836][315]LogBlueprintUserMessages: [BarrelCarnage_C_10] Fuck You
+[2024.05.26-20.51.52:069][329]LogBlueprintUserMessages: [BarrelCarnage_C_10] Fuck You
+[2024.05.26-20.51.52:269][341]LogBlueprintUserMessages: [BarrelCarnage_C_10] Fuck You
+[2024.05.26-20.51.52:452][352]LogBlueprintUserMessages: [BarrelCarnage_C_10] Fuck You
+[2024.05.26-20.51.52:769][371]LogBlueprintUserMessages: [BarrelCarnage_C_10] Fuck You
+[2024.05.26-20.51.53:036][387]LogBlueprintUserMessages: [BarrelCarnage_C_10] Fuck You
+[2024.05.26-20.51.53:804][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.26-20.51.53:804][431]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.51.53:804][431]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.51.53:808][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.51.53:812][431]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.26-20.51.53:818][431]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.51.53:838][431]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.26-20.51.53:838][431]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.05.26-20.51.53:838][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.05.26-20.51.53:841][431]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.05.26-20.51.53:853][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2024.05.26-20.51.53:898][432]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.05.26-20.51.59:035][554]Cmd: TRANSACTION UNDO
+[2024.05.26-20.51.59:035][554]LogEditorTransaction: Undo Create Pin Link
+[2024.05.26-20.51.59:982][567]Cmd: TRANSACTION UNDO
+[2024.05.26-20.51.59:982][567]LogEditorTransaction: Undo Add Node
+[2024.05.26-20.52.00:640][577]Cmd: TRANSACTION UNDO
+[2024.05.26-20.52.00:640][577]LogEditorTransaction: Undo Delete current selection
+[2024.05.26-20.52.03:607][621]BlueprintLog: New page: Compile BarrelCarnage
+[2024.05.26-20.52.03:657][621]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.05.26-20.52.05:222][651]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.05.26-20.52.05:231][651]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.05.26-20.52.05:231][651]PIE: New page: PIE session: BarrelCarnage (May 27, 2024, 7:52:05 AM)
+[2024.05.26-20.52.05:231][651]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.52.05:255][651]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023072s)
+[2024.05.26-20.52.05:255][651]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/BarrelCarnage.BarrelCarnage to /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage (0.023126s)
+[2024.05.26-20.52.05:277][651]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.05.26-20.52.05:281][651]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.05.26-20.52.05:281][651]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.05.26-20.52.05:281][651]LogAIModule: Creating AISystem for world BarrelCarnage
+[2024.05.26-20.52.05:283][651]LogPlayLevel: PIE: World Init took: (0.001218s)
+[2024.05.26-20.52.05:283][651]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.05.26-20.52.05:283][651]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.05.26-20.52.05:283][651]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.05.26-20.52.05:283][651]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.05.26-20.52.05:283][651]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.05.26-20.52.05:283][651]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.05.26-20.52.05:283][651]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.05.26-20.52.05:283][651]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.05.26-20.52.05:283][651]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.05.26-20.52.05:283][651]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.05.26-20.52.05:283][651]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.05.26-20.52.05:283][651]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.05.26-20.52.05:286][651]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.05.26-20.52.05:314][651]LogAudioMixer: Display: Using Audio Hardware Device Speakers (C-Media(R) Audio)
+[2024.05.26-20.52.05:314][651]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.05.26-20.52.05:315][651]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.05.26-20.52.05:315][651]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.05.26-20.52.05:316][651]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.05.26-20.52.05:316][651]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.05.26-20.52.05:317][651]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.05.26-20.52.05:317][651]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.05.26-20.52.05:317][651]LogInit: FAudioDevice initialized with ID 16.
+[2024.05.26-20.52.05:317][651]LogAudio: Display: Audio Device (ID: 16) registered with world 'BarrelCarnage'.
+[2024.05.26-20.52.05:317][651]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.05.26-20.52.05:324][651]LogLoad: Game class is 'GameModeBase'
+[2024.05.26-20.52.05:329][651]LogWorld: Bringing World /Game/UEDPIE_0_BarrelCarnage.BarrelCarnage up for play (max tick rate 60) at 2024.05.27-02.22.05
+[2024.05.26-20.52.05:330][651]LogWorld: Bringing up level for play took: 0.005624
+[2024.05.26-20.52.05:333][651]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.05.26-20.52.05:335][651]LogBlueprintUserMessages: [BarrelCarnage_C_11] Welcome
+[2024.05.26-20.52.05:335][651]PIE: Server logged in
+[2024.05.26-20.52.05:336][651]PIE: Play in editor total start time 0.105 seconds.
+[2024.05.26-20.52.06:784][694]LogBlueprintUserMessages: [BP_Projectile_C_0] BP_Projectile0
+[2024.05.26-20.52.06:784][694]LogBlueprintUserMessages: [BarrelCarnage_C_11] 9
+[2024.05.26-20.52.06:784][694]LogBlueprintUserMessages: [BarrelCarnage_C_11] 9
+[2024.05.26-20.52.07:060][705]LogBlueprintUserMessages: [BP_Projectile_C_1] BP_Projectile1
+[2024.05.26-20.52.07:060][705]LogBlueprintUserMessages: [BarrelCarnage_C_11] 8
+[2024.05.26-20.52.07:060][705]LogBlueprintUserMessages: [BarrelCarnage_C_11] 8
+[2024.05.26-20.52.07:252][714]LogBlueprintUserMessages: [BP_Projectile_C_2] BP_Projectile2
+[2024.05.26-20.52.07:252][714]LogBlueprintUserMessages: [BarrelCarnage_C_11] 7
+[2024.05.26-20.52.07:252][714]LogBlueprintUserMessages: [BarrelCarnage_C_11] 7
+[2024.05.26-20.52.07:440][724]LogBlueprintUserMessages: [BP_Projectile_C_3] BP_Projectile3
+[2024.05.26-20.52.07:440][724]LogBlueprintUserMessages: [BarrelCarnage_C_11] 6
+[2024.05.26-20.52.07:440][724]LogBlueprintUserMessages: [BarrelCarnage_C_11] 6
+[2024.05.26-20.52.07:623][735]LogBlueprintUserMessages: [BP_Projectile_C_4] BP_Projectile4
+[2024.05.26-20.52.07:623][735]LogBlueprintUserMessages: [BarrelCarnage_C_11] 5
+[2024.05.26-20.52.07:623][735]LogBlueprintUserMessages: [BarrelCarnage_C_11] 5
+[2024.05.26-20.52.07:806][746]LogBlueprintUserMessages: [BP_Projectile_C_5] BP_Projectile5
+[2024.05.26-20.52.07:806][746]LogBlueprintUserMessages: [BarrelCarnage_C_11] 4
+[2024.05.26-20.52.07:806][746]LogBlueprintUserMessages: [BarrelCarnage_C_11] 4
+[2024.05.26-20.52.08:006][758]LogBlueprintUserMessages: [BP_Projectile_C_6] BP_Projectile6
+[2024.05.26-20.52.08:006][758]LogBlueprintUserMessages: [BarrelCarnage_C_11] 3
+[2024.05.26-20.52.08:006][758]LogBlueprintUserMessages: [BarrelCarnage_C_11] 3
+[2024.05.26-20.52.08:190][769]LogBlueprintUserMessages: [BP_Projectile_C_7] BP_Projectile7
+[2024.05.26-20.52.08:190][769]LogBlueprintUserMessages: [BarrelCarnage_C_11] 2
+[2024.05.26-20.52.08:190][769]LogBlueprintUserMessages: [BarrelCarnage_C_11] 2
+[2024.05.26-20.52.08:405][782]LogBlueprintUserMessages: [BP_Projectile_C_8] BP_Projectile8
+[2024.05.26-20.52.08:406][782]LogBlueprintUserMessages: [BarrelCarnage_C_11] 1
+[2024.05.26-20.52.08:406][782]LogBlueprintUserMessages: [BarrelCarnage_C_11] 1
+[2024.05.26-20.52.08:605][794]LogBlueprintUserMessages: [BP_Projectile_C_9] BP_Projectile9
+[2024.05.26-20.52.08:607][794]LogBlueprintUserMessages: [BarrelCarnage_C_11] 0
+[2024.05.26-20.52.08:607][794]LogBlueprintUserMessages: [BarrelCarnage_C_11] 0
+[2024.05.26-20.52.08:822][807]LogBlueprintUserMessages: [BarrelCarnage_C_11] Fuck You
+[2024.05.26-20.52.09:055][821]LogBlueprintUserMessages: [BarrelCarnage_C_11] Fuck You
+[2024.05.26-20.52.09:239][832]LogBlueprintUserMessages: [BarrelCarnage_C_11] Fuck You
+[2024.05.26-20.52.09:456][845]LogBlueprintUserMessages: [BarrelCarnage_C_11] Fuck You
+[2024.05.26-20.52.09:654][857]LogBlueprintUserMessages: [BarrelCarnage_C_11] Fuck You
+[2024.05.26-20.52.12:063][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.26-20.52.12:063][999]LogWorld: BeginTearingDown for /Game/UEDPIE_0_BarrelCarnage
+[2024.05.26-20.52.12:064][999]LogWorld: UWorld::CleanupWorld for BarrelCarnage, bSessionEnded=true, bCleanupResources=true
+[2024.05.26-20.52.12:066][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.52.12:071][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.05.26-20.52.12:076][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.05.26-20.52.12:098][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.05.26-20.52.12:098][999]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.05.26-20.52.12:099][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.05.26-20.52.12:100][999]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.05.26-20.52.12:112][999]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2024.05.26-20.52.12:155][  0]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.05.26-20.52.56:485][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.05.26-20.52.56:682][233]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.05.26-20.52.56:768][233]LogSavePackage: Moving output files for package: /Game/BarrelCarnage
+[2024.05.26-20.52.56:769][233]LogSavePackage: Moving '../../../../../../Users/Krish Agarwal/OneDrive/Documents/Unreal Games/UE_First/Saved/BarrelCarnageF61D99774D0D8E04C21EA2B8907AE157.tmp' to '../../../../../../Users/Krish Agarwal/OneDrive/Documents/Unreal Games/UE_First/Content/BarrelCarnage.umap'
+[2024.05.26-20.52.56:778][233]LogFileHelpers: Saving map 'BarrelCarnage' took 0.144
+[2024.05.26-20.52.56:794][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 310 ms (total: 1.15 sec)
+[2024.05.26-20.52.56:797][233]AssetCheck: New page: Asset Save: BarrelCarnage
+[2024.05.26-20.52.56:797][233]LogContentValidation: Display: Validating /Script/Engine.World /Game/BarrelCarnage.BarrelCarnage
